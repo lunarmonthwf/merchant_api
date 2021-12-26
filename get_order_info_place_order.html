@@ -1,0 +1,953 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>get_order_info_place_order</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/get_order_info_place_order/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/get_order_info_place_order/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u621" class="ax_default box_1">
+        <img id="u621_img" class="img " src="images/get_order_info_place_order/u621.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u622" class="ax_default box_1">
+        <img id="u622_img" class="img " src="images/get_order_info/u325.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u623" class="ax_default label">
+        <div id="u623_div" class=""></div>
+        <div id="u623_text" class="text ">
+          <p><span>-order_info</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u624" class="ax_default label">
+        <div id="u624_div" class=""></div>
+        <div id="u624_text" class="text ">
+          <p><span>-sku_info</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u625" class="ax_default label">
+        <div id="u625_div" class=""></div>
+        <div id="u625_text" class="text ">
+          <p><span>—shipping_address</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u626" class="ax_default label">
+        <div id="u626_div" class=""></div>
+        <div id="u626_text" class="text ">
+          <p><span>-basic_info</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u627" class="ax_default label">
+        <div id="u627_div" class=""></div>
+        <div id="u627_text" class="text ">
+          <p><span>-amount_info</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u628" class="ax_default label">
+        <div id="u628_div" class=""></div>
+        <div id="u628_text" class="text ">
+          <p><span>—info_summary</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u629" class="ax_default label">
+        <div id="u629_div" class=""></div>
+        <div id="u629_text" class="text ">
+          <p><span>product id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u630" class="ax_default label">
+        <div id="u630_div" class=""></div>
+        <div id="u630_text" class="text ">
+          <p><span>sku id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u631" class="ax_default label">
+        <div id="u631_div" class=""></div>
+        <div id="u631_text" class="text ">
+          <p><span>quantity</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u632" class="ax_default label">
+        <div id="u632_div" class=""></div>
+        <div id="u632_text" class="text ">
+          <p><span>sale_attribute</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u633" class="ax_default paragraph">
+        <div id="u633_div" class=""></div>
+        <div id="u633_text" class="text ">
+          <p><span>-price</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u634" class="ax_default paragraph">
+        <div id="u634_div" class=""></div>
+        <div id="u634_text" class="text ">
+          <p><span>tax</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u635" class="ax_default label">
+        <div id="u635_div" class=""></div>
+        <div id="u635_text" class="text ">
+          <p><span>barcode</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u636" class="ax_default label">
+        <div id="u636_div" class=""></div>
+        <div id="u636_text" class="text ">
+          <p><span>merchant_product_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u637" class="ax_default label">
+        <div id="u637_div" class=""></div>
+        <div id="u637_text" class="text ">
+          <p><span>merchant_sku_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u638" class="ax_default paragraph">
+        <div id="u638_div" class=""></div>
+        <div id="u638_text" class="text ">
+          <p><span>product_name</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u639" class="ax_default paragraph">
+        <div id="u639_div" class=""></div>
+        <div id="u639_text" class="text ">
+          <p><span>category_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u640" class="ax_default paragraph">
+        <div id="u640_div" class=""></div>
+        <div id="u640_text" class="text ">
+          <p><span>brand_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u641" class="ax_default label">
+        <div id="u641_div" class=""></div>
+        <div id="u641_text" class="text ">
+          <p><span>price_type</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u642" class="ax_default label">
+        <div id="u642_div" class=""></div>
+        <div id="u642_text" class="text ">
+          <p><span>价格种类：sale_price、supply_price，仅sale_price有值，或sale_price、supply_price都有值</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u643" class="ax_default label">
+        <div id="u643_div" class=""></div>
+        <div id="u643_text" class="text ">
+          <p><span>price_contain</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u644" class="ax_default label">
+        <div id="u644_div" class=""></div>
+        <div id="u644_text" class="text ">
+          <p><span>price_value</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u645" class="ax_default label">
+        <div id="u645_div" class=""></div>
+        <div id="u645_text" class="text ">
+          <p><span>sale_price、supply_price是否包含关税、</span><span>消费税、</span><span>增值税</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u646" class="ax_default label">
+        <div id="u646_div" class=""></div>
+        <div id="u646_text" class="text ">
+          <p><span>tax_type</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u647" class="ax_default label">
+        <div id="u647_div" class=""></div>
+        <div id="u647_text" class="text ">
+          <p><span>rate</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u648" class="ax_default label">
+        <div id="u648_div" class=""></div>
+        <div id="u648_text" class="text ">
+          <p><span>merchant_customs_duty、merchant_vat、</span><span style="color:#999999;">consumption tax</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u649" class="ax_default label">
+        <div id="u649_div" class=""></div>
+        <div id="u649_text" class="text ">
+          <p><span>税率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u650" class="ax_default label">
+        <div id="u650_div" class=""></div>
+        <div id="u650_text" class="text ">
+          <p><span>product id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u651" class="ax_default label">
+        <div id="u651_div" class=""></div>
+        <div id="u651_text" class="text ">
+          <p><span>sku id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u652" class="ax_default label">
+        <div id="u652_div" class=""></div>
+        <div id="u652_text" class="text ">
+          <p><span>merchant_product_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u653" class="ax_default label">
+        <div id="u653_div" class=""></div>
+        <div id="u653_text" class="text ">
+          <p><span>merchant_sku_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u654" class="ax_default paragraph">
+        <div id="u654_div" class=""></div>
+        <div id="u654_text" class="text ">
+          <p><span>net_price</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u655" class="ax_default label">
+        <div id="u655_div" class=""></div>
+        <div id="u655_text" class="text ">
+          <p><span>去除税、商家优惠（折扣/优惠券）后的价格</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u656" class="ax_default label">
+        <div id="u656_div" class=""></div>
+        <div id="u656_text" class="text ">
+          <p><span>quantity</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u657" class="ax_default paragraph">
+        <div id="u657_div" class=""></div>
+        <div id="u657_text" class="text ">
+          <p><span>-tax</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u658" class="ax_default label">
+        <div id="u658_div" class=""></div>
+        <div id="u658_text" class="text ">
+          <p><span>tax_type</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u659" class="ax_default label">
+        <div id="u659_div" class=""></div>
+        <div id="u659_text" class="text ">
+          <p><span>value</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u660" class="ax_default label">
+        <div id="u660_div" class=""></div>
+        <div id="u660_text" class="text ">
+          <p><span>优惠（折扣/优惠券）后的价格：对应的税费金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u661" class="ax_default paragraph">
+        <div id="u661_div" class=""></div>
+        <div id="u661_text" class="text ">
+          <p><span>-promotion</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u662" class="ax_default label">
+        <div id="u662_div" class=""></div>
+        <div id="u662_text" class="text ">
+          <p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">promotion</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-size:14px;">_type</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u663" class="ax_default label">
+        <div id="u663_div" class=""></div>
+        <div id="u663_text" class="text ">
+          <p><span>discount</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u664" class="ax_default label">
+        <div id="u664_div" class=""></div>
+        <div id="u664_text" class="text ">
+          <p><span>coupon</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u665" class="ax_default paragraph">
+        <div id="u665_div" class=""></div>
+        <div id="u665_text" class="text ">
+          <p><span>shipping_fee</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u666" class="ax_default line">
+        <img id="u666_img" class="img " src="images/get_order_info/u369.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u667" class="ax_default label">
+        <div id="u667_div" class=""></div>
+        <div id="u667_text" class="text ">
+          <p><span>from</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u668" class="ax_default label">
+        <div id="u668_div" class=""></div>
+        <div id="u668_text" class="text ">
+          <p><span>merchant</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u669" class="ax_default label">
+        <div id="u669_div" class=""></div>
+        <div id="u669_text" class="text ">
+          <p><span>（商家运费）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u670" class="ax_default paragraph">
+        <div id="u670_div" class=""></div>
+        <div id="u670_text" class="text ">
+          <p><span>order_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u671" class="ax_default paragraph">
+        <div id="u671_div" class=""></div>
+        <div id="u671_text" class="text ">
+          <p><span>merchant_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u672" class="ax_default paragraph">
+        <div id="u672_div" class=""></div>
+        <div id="u672_text" class="text ">
+          <p><span>total_item_price</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u673" class="ax_default label">
+        <div id="u673_div" class=""></div>
+        <div id="u673_text" class="text ">
+          <p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">promotion</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-size:14px;">_value</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u674" class="ax_default label">
+        <div id="u674_div" class=""></div>
+        <div id="u674_text" class="text ">
+          <p><span>description</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u675" class="ax_default label">
+        <div id="u675_div" class=""></div>
+        <div id="u675_text" class="text ">
+          <p><span>currency</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u676" class="ax_default label">
+        <div id="u676_div" class=""></div>
+        <div id="u676_text" class="text ">
+          <p><span>币种</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u677" class="ax_default label">
+        <div id="u677_div" class=""></div>
+        <div id="u677_text" class="text ">
+          <p><span>等于各不同sku，quantity*sale_price</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u678" class="ax_default paragraph">
+        <div id="u678_div" class=""></div>
+        <div id="u678_text" class="text ">
+          <p><span>total_shipping_fee</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u679" class="ax_default paragraph">
+        <div id="u679_div" class=""></div>
+        <div id="u679_text" class="text ">
+          <p><span>order_status</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u680" class="ax_default label">
+        <div id="u680_div" class=""></div>
+        <div id="u680_text" class="text ">
+          <p><span>订单状态：待发货、已发货、订单关闭等</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u681" class="ax_default paragraph">
+        <div id="u681_div" class=""></div>
+        <div id="u681_text" class="text ">
+          <p><span>—total_amount</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u682" class="ax_default paragraph">
+        <div id="u682_div" class=""></div>
+        <div id="u682_text" class="text ">
+          <p><span>—shippment_info</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u683" class="ax_default paragraph">
+        <div id="u683_div" class=""></div>
+        <div id="u683_text" class="text ">
+          <p><span>first name</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u684" class="ax_default paragraph">
+        <div id="u684_div" class=""></div>
+        <div id="u684_text" class="text ">
+          <p><span>last name</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u685" class="ax_default label">
+        <div id="u685_div" class=""></div>
+        <div id="u685_text" class="text ">
+          <p><span>查询订单信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u686" class="ax_default paragraph">
+        <div id="u686_div" class=""></div>
+        <div id="u686_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">按订单创建时间</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">发货时间/订单状态/order_id（list）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u687" class="ax_default paragraph">
+        <div id="u687_div" class=""></div>
+        <div id="u687_text" class="text ">
+          <p><span>+指定返回订单信息项</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u688" class="ax_default paragraph">
+        <div id="u688_div" class=""></div>
+        <div id="u688_text" class="text ">
+          <p><span>start_time</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u689" class="ax_default paragraph">
+        <div id="u689_div" class=""></div>
+        <div id="u689_text" class="text ">
+          <p><span>end_time</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u690" class="ax_default paragraph">
+        <div id="u690_div" class=""></div>
+        <div id="u690_text" class="text ">
+          <p><span>order_status</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u691" class="ax_default paragraph">
+        <div id="u691_div" class=""></div>
+        <div id="u691_text" class="text ">
+          <p><span>time_type</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u692" class="ax_default paragraph">
+        <div id="u692_div" class=""></div>
+        <div id="u692_text" class="text ">
+          <p><span>—time</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u693" class="ax_default paragraph">
+        <div id="u693_div" class=""></div>
+        <div id="u693_text" class="text ">
+          <p><span>start time/end time的类型为创建时间、发货时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u694" class="ax_default paragraph">
+        <div id="u694_div" class=""></div>
+        <div id="u694_text" class="text ">
+          <p><span>待发货、已发货、已签收</span><span style="color:#999999;">（、售后、已取消）</span><span>，</span><span style="color:#FF0000;">默认所有5种状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u695" class="ax_default paragraph">
+        <div id="u695_div" class=""></div>
+        <div id="u695_text" class="text ">
+          <p><span>target_fields</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u696" class="ax_default paragraph">
+        <div id="u696_div" class=""></div>
+        <div id="u696_text" class="text ">
+          <p><span>指定返回订单目标字段，支持多字段指定，分隔符“，”或“；”分隔，未指定则</span><span style="color:#FF0000;">默认返回全部</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u697" class="ax_default paragraph">
+        <div id="u697_div" class=""></div>
+        <div id="u697_text" class="text ">
+          <p><span>order_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u698" class="ax_default paragraph">
+        <div id="u698_div" class=""></div>
+        <div id="u698_text" class="text ">
+          <p><span>支持多个orderid，分隔符“，”或“；”分隔</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u699" class="ax_default paragraph">
+        <div id="u699_div" class=""></div>
+        <div id="u699_text" class="text ">
+          <p><span>ship_carrier</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u700" class="ax_default paragraph">
+        <div id="u700_div" class=""></div>
+        <div id="u700_text" class="text ">
+          <p><span>page_numb</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u701" class="ax_default paragraph">
+        <div id="u701_div" class=""></div>
+        <div id="u701_text" class="text ">
+          <p><span>total_pages_number</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u702" class="ax_default label">
+        <div id="u702_div" class=""></div>
+        <div id="u702_text" class="text ">
+          <p><span>总页数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u703" class="ax_default paragraph">
+        <div id="u703_div" class=""></div>
+        <div id="u703_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">total_order</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">_number</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u704" class="ax_default label">
+        <div id="u704_div" class=""></div>
+        <div id="u704_text" class="text ">
+          <p><span>总订单数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u705" class="ax_default paragraph">
+        <div id="u705_div" class=""></div>
+        <div id="u705_text" class="text ">
+          <p><span>查询该条件下的第x页的订单信息，x大于等于1，</span><span style="color:#FF0000;">默认值为1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u706" class="ax_default paragraph">
+        <div id="u706_div" class=""></div>
+        <div id="u706_text" class="text ">
+          <p><span>time</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u707" class="ax_default paragraph">
+        <div id="u707_div" class=""></div>
+        <div id="u707_text" class="text ">
+          <p><span>time_type</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u708" class="ax_default paragraph">
+        <div id="u708_div" class=""></div>
+        <div id="u708_text" class="text ">
+          <p><span>—time</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u709" class="ax_default paragraph">
+        <div id="u709_div" class=""></div>
+        <div id="u709_text" class="text ">
+          <p><span>类型为创建时间、发货时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u710" class="ax_default paragraph">
+        <div id="u710_div" class=""></div>
+        <div id="u710_text" class="text ">
+          <p><span>amount_type</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u711" class="ax_default paragraph">
+        <div id="u711_div" class=""></div>
+        <div id="u711_text" class="text ">
+          <p><span>value</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u712" class="ax_default label">
+        <div id="u712_div" class=""></div>
+        <div id="u712_text" class="text ">
+          <p><span>item</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u713" class="ax_default label">
+        <div id="u713_div" class=""></div>
+        <div id="u713_text" class="text ">
+          <p><span>promotion</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u714" class="ax_default label">
+        <div id="u714_div" class=""></div>
+        <div id="u714_text" class="text ">
+          <p><span>tax</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u715" class="ax_default paragraph">
+        <div id="u715_div" class=""></div>
+        <div id="u715_text" class="text ">
+          <p><span>tracking_numb</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u716" class="ax_default paragraph">
+        <div id="u716_div" class=""></div>
+        <div id="u716_text" class="text ">
+          <p><span>phone</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u717" class="ax_default paragraph">
+        <div id="u717_div" class=""></div>
+        <div id="u717_text" class="text ">
+          <p><span>country</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u718" class="ax_default paragraph">
+        <div id="u718_div" class=""></div>
+        <div id="u718_text" class="text ">
+          <p><span>province/state</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u719" class="ax_default paragraph">
+        <div id="u719_div" class=""></div>
+        <div id="u719_text" class="text ">
+          <p><span>city</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u720" class="ax_default paragraph">
+        <div id="u720_div" class=""></div>
+        <div id="u720_text" class="text ">
+          <p><span>address2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u721" class="ax_default paragraph">
+        <div id="u721_div" class=""></div>
+        <div id="u721_text" class="text ">
+          <p><span>address1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u722" class="ax_default paragraph">
+        <div id="u722_div" class=""></div>
+        <div id="u722_text" class="text ">
+          <p><span>zipcode</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u723" class="ax_default label">
+        <div id="u723_div" class=""></div>
+        <div id="u723_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">amount_type</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">=item</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u724" class="ax_default paragraph">
+        <div id="u724_div" class=""></div>
+        <div id="u724_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">value=</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">各不同</span><span style="font-family:'ArialMT', 'Arial';">sku</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，求和（</span><span style="font-family:'ArialMT', 'Arial';">quantity*net_price</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u725" class="ax_default label">
+        <div id="u725_div" class=""></div>
+        <div id="u725_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">amount_type</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">=promotion</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u726" class="ax_default paragraph">
+        <div id="u726_div" class=""></div>
+        <div id="u726_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">商家寄别样仓库：</span><span style="font-family:'ArialMT', 'Arial';">value=</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">各不同</span><span style="font-family:'ArialMT', 'Arial';">sku</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，求和（promotion_form=merchant，</span><span style="font-family:'ArialMT', 'Arial';">quantity*</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">所有promotion_type（promotion_value）求和）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u727" class="ax_default label">
+        <div id="u727_div" class=""></div>
+        <div id="u727_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">amount_type</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">=tax</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u728" class="ax_default paragraph">
+        <div id="u728_div" class=""></div>
+        <div id="u728_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">value=</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">各不同</span><span style="font-family:'ArialMT', 'Arial';">sku</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，求和（所有tax_type，</span><span style="font-family:'ArialMT', 'Arial';">quantity*value</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u729" class="compound ax_default shape" WidgetHeight="123" WidgetWidth="141" CompoundMode="true">
+        <img id="u729_img" class="singleImg img " src="images/get_order_info/u434.png"/>
+        <div id="u729p000" class="ax_vector_shape" WidgetTopLeftX="-0.490238015987956" WidgetTopLeftY="0.343262788615528" WidgetTopRightX="0.0698359356510481" WidgetTopRightY="-7.36543080202293" WidgetBottomLeftX="-0.065526118273049" WidgetBottomLeftY="8.07903598589894" WidgetBottomRightX="0.494547833365955" WidgetBottomRightY="0.370342395260481">
+          <img id="u729p000_img" class="img " src="images/get_order_info/u434p000.png"/>
+        </div>
+        <div id="u729p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="0" WidgetTopRightX="35.25" WidgetTopRightY="0" WidgetBottomLeftX="0" WidgetBottomLeftY="30.75" WidgetBottomRightX="35.25" WidgetBottomRightY="30.75">
+          <img id="u729p001_img" class="img " src="images/get_order_info/u434p001.png"/>
+        </div>
+        <div id="u729p002" class="ax_vector_shape" WidgetTopLeftX="7.6136760375616" WidgetTopLeftY="-3.76312954946052" WidgetTopRightX="4.90507717822349" WidgetTopRightY="2.62634034914786" WidgetBottomLeftX="2.5465915918567" WidgetBottomLeftY="-6.36223185916582" WidgetBottomRightX="-0.16200726748142" WidgetBottomRightY="0.0272380394425625">
+          <img id="u729p002_img" class="img " src="images/get_order_info/u434p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u730" class="ax_default paragraph">
+        <div id="u730_div" class=""></div>
+        <div id="u730_text" class="text ">
+          <p><span>解释</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u731" class="ax_default paragraph">
+        <div id="u731_div" class=""></div>
+        <div id="u731_text" class="text ">
+          <p><span>时间戳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u732" class="ax_default paragraph">
+        <div id="u732_div" class=""></div>
+        <div id="u732_text" class="text ">
+          <p><span>时间戳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u733" class="ax_default paragraph">
+        <div id="u733_div" class=""></div>
+        <div id="u733_text" class="text ">
+          <p><span>各type下，start_time、end_time的时间差最多32天</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u734" class="ax_default paragraph">
+        <div id="u734_div" class=""></div>
+        <div id="u734_text" class="text ">
+          <p><span>时间戳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u735" class="ax_default label">
+        <div id="u735_div" class=""></div>
+        <div id="u735_text" class="text ">
+          <p><span>merchnat_customs_duty、merchant_vat</span><span style="color:#666666;">、consumption tax</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u736" class="ax_default paragraph">
+        <div id="u736_div" class=""></div>
+        <div id="u736_text" class="text ">
+          <p><span>product_type</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
