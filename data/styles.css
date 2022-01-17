@@ -13,6 +13,8 @@
 }
 .ellipse {
 }
+.image {
+}
 .shape {
   color:#1E1E1E;
 }
@@ -65,6 +67,11 @@
   text-align:left;
 }
 .line {
+}
+.tree_node {
+  text-align:left;
+}
+.menu_item {
 }
 .flow_shape {
 }
